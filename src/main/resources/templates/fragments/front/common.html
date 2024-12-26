@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="headerSrc(title)">
+
+<title th:text="${title}"></title>
+<!-- Primary Meta Tags -->
+<meta name="title" content="SNS마케팅의 모든것, 어트렉션">
+<meta name="description" content="SNS마케팅은 노출과 컨텐츠가 중요합니다. 컨텐츠제작부터 노출작업까지 원스탑 마케팅이 가능한 어트렉션입니다.">
+<meta name="keywords" content="어트렉션, ATTRACTON, SNS광고, SNS마케팅, SNS홍보, 인스타그램광고, 인스타광고, 인스타그램마케팅, 인스타마케팅, 인스타그램홍보, 인스타홍보, 한국인팔로워늘리기, 인스타팔로워늘리기, 팔로워늘리기, 인플루언서">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="ATTRACTION" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://atrt.co.kr/">
+<meta property="og:title" content="SNS마케팅의 모든것, 어트렉션">
+<meta property="og:description" content="SNS마케팅은 노출과 컨텐츠가 중요합니다. 컨텐츠제작부터 노출작업까지 원스탑 마케팅이 가능한 어트렉션입니다.">
+<meta property="og:image" content="https://atrt.co.kr/resource/front/images/attr_opengraph.jpeg">
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://atrt.co.kr/">
+<meta property="twitter:title" content="SNS마케팅의 모든것, 어트렉션">
+<meta property="twitter:description" content="SNS마케팅은 노출과 컨텐츠가 중요합니다. 컨텐츠제작부터 노출작업까지 원스탑 마케팅이 가능한 어트렉션입니다.">
+<meta property="twitter:image" content="https://atrt.co.kr/resource/front/images/attr_opengraph.jpeg">
+
+<!-- Verification Codes -->
+<meta name="google-site-verification" content="Ye5iuEqYs3nHh2BNqlJixL8yJukpThrmXWl2LutBPt4" />
+<meta name="naver-site-verification" content="bf9d69aba60353e4107c0623339273151c987c5b" />
+<meta name="facebook-domain-verification" content="q9dhjo616mxkptm6b4cqbvasqnb92g" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://atrt.co.kr/" />
+<link rel="shortcut icon" href="/resource/front/image/logo.ico">
+<link
+	href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
+	rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/resource/front/css/bootstrap.css"
+	type="text/css" />
+<link rel="stylesheet" href="/resource/front/style.css" type="text/css" />
+<link rel="stylesheet" href="/resource/front/css/swiper.css"
+	type="text/css" />
+<link rel="stylesheet" href="/resource/front/css/dark.css"
+	type="text/css" />
+<link rel="stylesheet" href="/resource/front/css/font-icons.css"
+	type="text/css" />
+<link rel="stylesheet" href="/resource/front/css/animate.css"
+	type="text/css" />
+<link rel="stylesheet" href="/resource/front/css/magnific-popup.css"
+	type="text/css" />
+<link rel="stylesheet" href="/resource/front/css/custom.css"
+	type="text/css" />
+
+<script src="https://kit.fontawesome.com/e5334cc6a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="stretched">
+	<div id="wrapper" class="clearfix">
+
+
+		<th:block th:fragment="footerNav">
+
+			<div style="font-family: gm;">
+				<a id="contactBtn" href="/community/inquiry"
+					class="button button-rounded button-reveal button-large button-atrtblue linkBtn">
+					<i class="icon-question i-alt btnIcon"></i> <span class="iconText">신속문의하기</span>
+				</a>
+				<a id="telBtn" href="tel:1833-5180"
+					class="button button-rounded button-reveal button-large button-black linkBtn">
+					<i class="icon-line-phone-call btnIcon"></i> <span class="iconText">빠른전화상담</span>
+				</a>
+				<a id="kakaoBtn" href="http://pf.kakao.com/_sQyxkxb/chat"
+					class="button button-rounded button-reveal button-large button-kakao button-light linkBtn">
+					<i class="icon-line-message-circle i-alt btnIcon"></i> <span
+					class="iconText">카카오톡상담</span>
+				</a>
+			</div> 
+			<div id="gotoTop" class="icon-angle-up"></div>
+		</th:block>
+	</div>
+
+	<th:block th:fragment="script">
+		<script src="/resource/front/js/jquery.js"></script>
+		<script src="/resource/front/js/plugins.min.js"></script>
+		<script src="/resource/front/js/functions.js"></script>
+	</th:block>
+</body>
+
+</html>
