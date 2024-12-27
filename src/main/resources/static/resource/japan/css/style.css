@@ -195,7 +195,7 @@ input[data-placeholder]::before {
 	position: relative;
 	width: 100%;
 	height: calc(var(--vh, 1vh) * 100);
-	background-image: url("../images/c1_bg.jpg");
+	background-image: url("../image/newcircle.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -782,7 +782,7 @@ input[data-placeholder]::before {
 
 #main .cnt6 .tab_split .tab_cnt .tab_cnt1 .top {
 	height: 67.5rem;
-	background-image: url("../images/c6_tab1_top_bg.jpg");
+	background-image: url("../image/newcircle.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
