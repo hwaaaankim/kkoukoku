@@ -42,6 +42,23 @@
 	transform: scale(1);
 }
 
+#contactButton {
+	background-color: rgba(0,28,64);
+	/* 초록색 배경 */
+	color: white;
+	/* 흰색 아이콘 */
+}
+
+#contactButton:hover {
+	background-color: rgba(0,28,64, 0.7);
+	transform: scale(1.1);
+}
+
+#contactButton:active {
+	background-color: rgba(0,28,64, 0.7);
+	transform: scale(1);
+}
+
 #scrollTop {
 	background-color: white;
 	/* 하얀색 배경 */
