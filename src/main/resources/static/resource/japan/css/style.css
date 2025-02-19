@@ -1557,12 +1557,12 @@ input[data-placeholder]::before {
 }
 
 #main .cnt8 .wrap h3 {
-	font-size: 13.174rem;
+	font-size: 2.174rem;
 	font-weight: 900;
 	color: #d02c35;
 	opacity: 0.4;
 	letter-spacing: -0.08em;
-	margin-top: -2rem;
+	margin-top: 5px;
 	margin-left: 1rem;
 }
 
