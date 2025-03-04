@@ -862,7 +862,7 @@ input[data-placeholder]::before {
 	color: #525252;
 	font-weight: 500;
 	padding-top: 1.2rem;
-	word-break: keep-all;
+	overflow-wrap: break-word;
 }
 
 #main .cnt6 .tab_split .tab_cnt .tab_cnt1 .btm .txt {
