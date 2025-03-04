@@ -1557,12 +1557,12 @@ input[data-placeholder]::before {
 }
 
 #main .cnt8 .wrap h3 {
-	font-size: 13.174rem;
+	font-size: 2.174rem;
 	font-weight: 900;
 	color: #d02c35;
 	opacity: 0.4;
 	letter-spacing: -0.08em;
-	margin-top: -2rem;
+	margin-top: 5px;
 	margin-left: 1rem;
 }
 
@@ -1902,7 +1902,7 @@ input[data-placeholder]::before {
 
 	#main .cnt6 .tab_split .tab_btn li a {
 		padding: 0.8rem 0;
-		font-size: 2.1rem;
+		font-size: 1.5rem;
 	}
 
 	#main .cnt6 .tab_split .tab_cnt .tab_cnt4 .top .tit,
@@ -2156,7 +2156,7 @@ input[data-placeholder]::before {
 	}
 
 	#main .cnt7 .area ul li .h4_wrap h4 {
-		font-size: 3rem;
+		font-size: 2.4rem;
 	}
 
 	#main .cnt7 .area ul li .arrow {
@@ -2173,9 +2173,10 @@ input[data-placeholder]::before {
 		padding-left: 3rem;
 		padding-right: 3rem;
 		padding-top: 1rem;
-		text-align: center;
+		text-align: left;
 		font-size: 2.2rem;
-		line-height: 1.5;
+		line-height: 1.4;
+		word-break: break-all;
 	}
 
 	#main .cnt7 .area ul li .p_wrap .icon {
@@ -2202,7 +2203,7 @@ input[data-placeholder]::before {
 	}
 
 	#main .cnt1 .txt h2 {
-		font-size: 5.25rem;
+		font-size: 3.25rem;
 		padding-top: 6.75rem;
 	}
 
@@ -2211,9 +2212,15 @@ input[data-placeholder]::before {
 	}
 
 	#main .cnt2 .tit h2 {
-		font-size: 5.25rem;
+		font-size: 4.25rem;
+		padding-left:10px;
+		padding-right:10px;
+		word-break: break-all;
 	}
-
+	ul{
+		padding-left:0px !important;
+		margin-bottom:0px !important;
+	}
 	#main .cnt2 .tit p {
 		font-size: 2.611rem;
 	}
@@ -2241,8 +2248,8 @@ input[data-placeholder]::before {
 	}
 
 	#main .cnt6 .tab_split .tab_btn {
-		width: calc(100% - 8rem);
-		left: 4rem;
+		width: calc(100% - 4rem);
+		left: 3rem;
 	}
 
 	#main .cnt6 .tab_split .tab_cnt .tab_cnt1 .top {
@@ -2255,7 +2262,7 @@ input[data-placeholder]::before {
 	}
 
 	#main .cnt6 .tab_split .tab_cnt .tab_cnt1 .top .txt h3 {
-		font-size: 5.25rem;
+		font-size: 3.5rem;
 	}
 
 	#main .cnt6 .tab_split .tab_cnt .tab_cnt1 .btm .tit h3 strong {
@@ -2265,7 +2272,9 @@ input[data-placeholder]::before {
 	#main .cnt6 .tab_split .tab_cnt .tab_cnt2 .top {
 		background-position: 40% center;
 	}
-
+	#main .cnt6 .tab_split .tab_cnt .tab_cnt1 .btm .tit h3 {
+		font-size:3rem;
+	}
 	#main .cnt6 .tab_split .tab_cnt .tab_cnt2 .top .txt {
 		padding-top: 20rem;
 		padding-left: 4rem;
@@ -2301,8 +2310,8 @@ input[data-placeholder]::before {
 	}
 
 	#main .cnt8 .wrap h3 {
-		font-size: 10.174rem;
-		margin-top: -1rem;
+		font-size: 3.174rem;
+		margin-top: 1rem;
 	}
 
 	#main .cnt8 .wrap .ul_wrap {
